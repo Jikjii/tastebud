@@ -1,6 +1,7 @@
 import { Auth } from "aws-amplify";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
+import Header from "../components/Header";
 
 const Dashboard = () => {
   const [user, setUser] = useState<any | null>();
@@ -32,6 +33,8 @@ const Dashboard = () => {
   }
 
   return (
+    <div>
+      <Header />
     <main className="bg-gray-200 h-screen flex flex-col items-center justify-center">
       <p className="text-xl mb-4">Welcome, your email is {user.attributes.email}</p>
 
@@ -42,6 +45,7 @@ const Dashboard = () => {
         Log out
       </button>
     </main>
+    </div>
   );
 };
 
