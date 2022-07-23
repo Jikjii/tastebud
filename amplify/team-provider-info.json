@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tastebud-dev-153443-authRole",
+      "UnauthRoleArn": "arn:aws:iam::441368334045:role/amplify-tastebud-dev-153443-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::441368334045:role/amplify-tastebud-dev-153443-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-tastebud-dev-153443-deployment",
+      "UnauthRoleName": "amplify-tastebud-dev-153443-unauthRole",
+      "StackName": "amplify-tastebud-dev-153443",
+      "StackId": "arn:aws:cloudformation:us-east-1:441368334045:stack/amplify-tastebud-dev-153443/81c32fb0-0abe-11ed-8ad0-121f1bbe5741",
+      "AmplifyAppId": "d39erji2tvzrta"
+    },
+    "categories": {
+      "auth": {
+        "tastebudfc82bd9f": {}
+      }
+    }
+  }
+}
